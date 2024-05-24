@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#upload-section {
+    width: 50%;
+}
+
+#shared-files-section {
+    width: 50%;
+}
+
+#file-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#upload-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-btn:hover {
+    background-color: #3e8e41;
+}
+
+#upload-status {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#shared-files-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#shared-files-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#shared-files-list li:last-child {
+    border-bottom: none;
+}
+
+#shared-files-list a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+#shared-files-list a:hover {
+    color: #23527c;
+}
